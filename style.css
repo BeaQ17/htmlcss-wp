@@ -51,7 +51,6 @@ nav.main_menu > ul > li > a{
 
 
 /* Yoga girl */
-
 .top_part{
     height: 250px;
     border-radius: 10px;
@@ -59,14 +58,15 @@ nav.main_menu > ul > li > a{
     background-image: url(img/banner.jpg);
     background-size: 100%;  
     background-position: center;
-    
 }
 
-/*
-.top_part::after{
-    filter: brightness(50%);
+.dim{
+    background-color: rgb(0, 0, 0, 0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
-*/
 
 .titletext{
     color: white;
@@ -79,53 +79,81 @@ nav.main_menu > ul > li > a{
 
 
 
-/* Leadership mess */
-
-.leadership{
-    height: 70px;
-    line-height: 70px;
-    
+/* Leadership mess plus all titles and lorems*/
+.title{
+    margin-top: 20px;  
+    margin-bottom: 5px;
 }
 
-.leftimg{
-    background-image: url(img/img-1.jpg);
-    height: 100px;
-    border-radius: 10px;
-    filter: brightness(70%);
-    background-size: 100%;  
-    background-position: center;
-    
-
+.lorem{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: gray;
 }
 
+.grey{
+    color: lightslategray;
+}
 
 
 /* both asides*/
-
 .sidebar_l, .sidebar_r{
     width: 25%;
     height: 400px;
     float: left;
-    background-color: slateblue;
     margin: auto;
     padding: 15px;
-    display: table;
+    padding: 0;
+}
+
+.asideimg{
+    height: 100px;
+    border-radius: 10px;
+    filter: brightness(80%);
+    background-size: 100%;  
+    background-position: center;
+    margin-bottom: 10px;
 }
 
 
 
+/* girl with plant */
+.leftimg{
+    background-image: url(img/img-1.jpg);
+}
+
+
+
+/* Big lightbulb little people*/
+.rightimg {
+    background-image: url(img/img-3.jpg);
+}
+
+
 /* guy with coffee*/
+.centerimg{
+    background-image: url(img/banner-2.jpg);
+}
 
 .content{
     width: 50%;
-    height: 500px;
     float: left;
-    background-color: steelblue;
+    padding: 10px;
+    padding-top: 0;
     
 }
 
 
+
+/* Footer */
 footer{
     height: 50px;
-    background-color: lightblue;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+.heart::after{
+    content: "\2665";
+    color: red;
 }
