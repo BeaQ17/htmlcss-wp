@@ -25,6 +25,10 @@ header{
     height: 70px;
 }
 
+
+
+/* nav menu*/
+
 nav{
     height: 70px;
     line-height: 70px;
@@ -44,15 +48,25 @@ nav.main_menu > ul > li > a{
     
 }
 
+
+
+/* Yoga girl */
+
 .top_part{
     height: 250px;
     border-radius: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img/banner.jpg);
+    position: relative;
+    background-image: url(img/banner.jpg);
     background-size: 100%;  
     background-position: center;
-    position: relative;
     
 }
+
+/*
+.top_part::after{
+    filter: brightness(50%);
+}
+*/
 
 .titletext{
     color: white;
@@ -60,15 +74,26 @@ nav.main_menu > ul > li > a{
     width: 60%; 
     position: absolute;
     bottom: 5px;
-    
-    
 }
+
+
+
+
+/* Leadership mess */
 
 .leadership{
-    height: 70px;
-    background-color: royalblue;
+    height: 90px;
+    line-height: 90px;
+    
 }
 
+.leftimg{
+
+}
+
+
+
+/* both asides*/
 
 .sidebar_l, .sidebar_r{
     width: 25%;
@@ -78,6 +103,10 @@ nav.main_menu > ul > li > a{
     margin: auto;
     padding: 15px;
 }
+
+
+
+/* guy with coffee*/
 
 .content{
     width: 50%;
